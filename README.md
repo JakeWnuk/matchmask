@@ -30,4 +30,8 @@ bark
 tree
 
 ```
+Install
+```
+go install -v github.com/jakewnuk/matchcat@latest
+```
 Use with [maskcat](https://github.com/jakewnuk/maskcat) for a workflow.
