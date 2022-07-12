@@ -1,11 +1,11 @@
-# matchcat
+# matchmask
  Matches words from stdin to Hashcat masks from a file argument.
 
  ```
 $ cat masks.txt
 ?u?l?l?l?u?u?l?u?d?u?u?d?d?d?s
 
-$ echo 'ThisISaT3ST123!' | matchcat masks.txt
+$ echo 'ThisISaT3ST123!' | matchmask masks.txt
 ThisISaT3ST123!
  ```
 
@@ -23,7 +23,7 @@ Tree
 Bark
 NoMatch123
 
-$ cat words.txt | matchcat masks.txt
+$ cat words.txt | matchmask masks.txt
 ThisISaT3ST123!
 test
 bark
@@ -32,6 +32,6 @@ tree
 ```
 Install
 ```
-go install -v github.com/jakewnuk/matchcat@latest
+go install -v github.com/jakewnuk/matchmask@latest
 ```
 Use with [maskcat](https://github.com/jakewnuk/maskcat) for a workflow.
