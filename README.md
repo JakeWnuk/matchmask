@@ -34,4 +34,5 @@ Install
 ```
 go install -v github.com/jakewnuk/matchmask@latest
 ```
-Use with [maskcat](https://github.com/jakewnuk/maskcat) for a workflow.
+See [maskcat](https://github.com/jakewnuk/maskcat), [matchmask](https://github.com/jakewnuk/matchmask), and [submask](https://github.com/jakewnuk/submask), and [920mPasswordMasks](https://github.com/jakewnuk/920mPasswordMasks)
+
